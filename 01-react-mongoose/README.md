@@ -33,7 +33,7 @@ http://localhost:3100/seed
 to seed clients, simply visit:
 http://localhost:3100/clients/seed
 
-### So what's should I know or do to get data to be served?
+### So what should I know or do to get data to be served?
 
 1. set up express and database (mongo/mongoose)
 2. set up models/schema which determines how our data would be (2 METHODS):
