@@ -21,13 +21,16 @@ npm run start OR nodemon server.js
 
 ##### <em>to note: if you are using nodemon, make sure it's installed </em>
 
-In order for our backend to display data i've created seed routes (eg line 30 - 54 in server.js) this allows me to have some data in my database in any situation where i restart my server and lost my data. this is also good for deployment if you do not want to manually insert data through your frontend repeatedly.
+In order for our backend to display data i've created seed routes (eg line 30 - 54 in server.js) this allows me to have some data in my database in any situation where i restart my server and lose my data.
+
+this is also good for deployment if you do not want to manually insert data through your frontend repeatedly.
+
 Thus to initiate this / in order for my front end to display data i have to initiate the seed.
 
-to seed products:
+to seed products, simply visit:
 http://localhost:3100/seed
 
-to seed clients:
+to seed clients, simply visit:
 http://localhost:3100/clients/seed
 
 ### So what's should I know or do to get data to be served?
